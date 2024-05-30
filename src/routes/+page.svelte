@@ -1,26 +1,46 @@
 <script>
 	import HeroSection from '$lib/components/HeroSection.svelte';
+	import HomeSection from '$lib/components/HomeSection.svelte';
 </script>
 
-<main class="flex flex-col items-center">
-	<HeroSection
-		clazz="bg-sky-50"
-		title="Hi, I'm Giang Hoang. I am a Software Engineer. I love coding and learn new things. I created this blog to note and share what I learn and want to get contribute from other developers."
-		textLead="I worked in IT industry for 10 years. I learned a lot of things. Some of them are very useful and some of them are not but very fun to learn. I will try to write what I learn so far in the funny way so you can feel that programming is very easy.">
-	</HeroSection>
-	<HeroSection
-		clazz="bg-teal-50"
-		title="Articles"
-		textLead="I will try to write a lot of articles about what I learned so far at first so I can keep my knowledge and try to explain it in funny way. Sometime I will come with advance topic but with the warning so you can read it later if it is too hard to understand.">
-	</HeroSection>
-	<HeroSection
-		clazz="bg-orange-50"
-		title="Programming Language"
-		textLead="I know C, C++, C#, Java, Python, Javascript, Scala, Kotlin, Go, Rust but my most used programming language is Java so my example will mostly be written in Java. There are some reason behind why I choose Java and you will know it in some articles.">
-	</HeroSection>
-	<HeroSection
+<main class="flex flex-col items-center px-6">
+	<HeroSection />
+	<HomeSection clazz="bg-teal-50" title="Articles">
+		<div slot="textLead" class="flex flex-col gap-4">
+			<p>
+				I’ll try to write a lot of articles about what I’ve learned so far – it's like my personal
+				diary, but less embarrassing. I aim to keep things light and funny, even when diving into
+				advanced topics. Don’t worry, I’ll give you a heads up if things get too complex, so you can
+				save them for when you’re ready (or never, no judgment here).
+			</p>
+			<p>
+				I dabble in quite a few programming languages: C, C++, C#, Java, Python, JavaScript, Scala,
+				Kotlin, Go, Rust... you name it. But my true love is Java, so most of my examples will be in
+				Java. Why Java, you ask? Stick around, and I’ll share my reasons (hint: it’s not just
+				because I enjoy coffee).
+			</p>
+		</div>
+	</HomeSection>
+	<HomeSection clazz="bg-orange-50" title="Programming Language" textLead=""></HomeSection>
+	<HomeSection
 		clazz="bg-gradient-to-r from-cyan-500 to-blue-500 text-white"
-		title="Framework"
-		textLead="Learn the programming language is easy but learn the framework is not. They are very different. I will try to write about frameworks so we can discuss together about it.">
-	</HeroSection>
+		title="About Me"
+		textLead="">
+		<div slot="textLead" class="flex flex-col gap-4">
+			<p>
+				I started my programming journey a bit late – like, really late. I transitioned from a
+				Master's degree and four years in underground construction and mining engineering to the
+				exciting world of coding. Now, instead of digging tunnels, I'm digging through lines of
+				code, mainly in Java. But my curiosity doesn’t stop there – I dabble in all sorts of
+				programming languages, especially the functional ones like Scala and Clojure, because who
+				doesn't love a good challenge?
+			</p>
+			<p>
+				This blog is my way of sharing what I've learned, in the simplest and most entertaining way
+				possible. My goal is to create a space where we can laugh, learn, and discuss various
+				programming topics. Whether you're a seasoned developer or just starting out (especially if
+				you started late like me), I hope you’ll find my posts helpful and maybe even a bit
+				humorous.
+			</p>
+		</div></HomeSection>
 </main>
