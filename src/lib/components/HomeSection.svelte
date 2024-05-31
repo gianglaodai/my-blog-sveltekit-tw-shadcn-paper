@@ -7,8 +7,8 @@
 
 <section
 	{...$$restProps}
-	class={twMerge('flex flex-col justify-center items-center w-full', clazz)}>
-	<div class="body flex flex-col justify-center px-6 py-12 mb-5 md:max-w-3xl">
+	class={twMerge('flex flex-col justify-start items-center w-full px-6', clazz)}>
+	<div class="body flex flex-col justify-start px-6 py-12 mb-5 md:max-w-4xl">
 		{#if $$slots.title}
 			<slot name="title" />
 		{:else}

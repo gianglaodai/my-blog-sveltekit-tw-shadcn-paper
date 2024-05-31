@@ -1,16 +1,16 @@
-<section class="responsive-section relative py-28 rounded-lg max-w-4xl mx-auto gap-5">
+<section class="relative py-28 rounded-lg max-w-4xl mx-auto gap-5 px-6">
 	<picture
-		class="avatar w-full h-full min-h-60 min-w-60 max-h-max overflow-hidden relative border-8 border-white self-start">
+		class="avatar w-full h-full min-h-60 min-w-60 max-h-max overflow-hidden relative border-8 border-white bg-white self-start">
 		<img
 			src="avatar.jpg"
 			alt="Giang Hoang"
 			class="w-full h-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 object-cover object-center" />
 	</picture>
-	<h1 class="title text-3xl sm:text-5xl md:text-4xl font-bold text-white">
+	<h1 class="text-3xl sm:text-5xl md:text-4xl font-bold text-white">
 		Hi, I'm Giang Hoàng, the Lazy Programmer Extraordinaire: automating my way to more nap times
 		with clean code and functional programming.
 	</h1>
-	<div class="text text-xl mt-4 text-gray-700">
+	<div class="text-xl mt-4 text-gray-700">
 		<p>
 			Welcome to my blog! Join me as I navigate the wild world of software development, from the zen
 			of clean code to the chaos of functional programming.
@@ -24,28 +24,42 @@
 </section>
 
 <style>
-	.responsive-section {
+	section {
 		display: grid;
 		grid-template-areas:
 			'avatar title'
 			'avatar text';
 	}
-	.responsive-section::before {
+	section::before {
 		@apply absolute -top-2 -left-2 -right-2 -bottom-2 -z-10 row-start-1 row-end-2 bg-gradient-to-r from-cyan-500 to-blue-500;
+		border-bottom-left-radius: 15px 255px;
+		border-bottom-right-radius: 225px 15px;
+		border-top-left-radius: 255px 15px;
+		border-top-right-radius: 15px 225px;
 		content: '';
 	}
-	.avatar {
+	picture {
 		grid-area: avatar;
+		border-bottom-left-radius: 15px 255px;
+		border-bottom-right-radius: 225px 15px;
+		border-top-left-radius: 255px 15px;
+		border-top-right-radius: 15px 225px;
 	}
-	.title {
+	picture img {
+		border-bottom-left-radius: 15px 255px;
+		border-bottom-right-radius: 225px 15px;
+		border-top-left-radius: 255px 15px;
+		border-top-right-radius: 15px 225px;
+	}
+	h1 {
 		grid-area: title;
 	}
-	.text {
+	div {
 		grid-area: text;
 	}
 
 	@media (max-width: 768px) {
-		.responsive-section {
+		section {
 			grid-template-areas:
 				'avatar title'
 				'text text';
@@ -54,13 +68,13 @@
 	}
 
 	@media (max-width: 640px) {
-		.responsive-section {
+		section {
 			grid-template-areas:
 				'title'
 				'avatar'
 				'text';
 		}
-		.avatar {
+		picture {
 			justify-self: center;
 			width: 100%;
 			aspect-ratio: 1/1;

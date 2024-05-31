@@ -3,7 +3,7 @@
 	import HomeSection from '$lib/components/HomeSection.svelte';
 </script>
 
-<main class="flex flex-col items-center px-6">
+<main class="flex flex-col items-center">
 	<HeroSection />
 	<HomeSection clazz="bg-teal-50" title="Articles">
 		<div slot="textLead" class="flex flex-col gap-4">
@@ -21,7 +21,6 @@
 			</p>
 		</div>
 	</HomeSection>
-	<HomeSection clazz="bg-orange-50" title="Programming Language" textLead=""></HomeSection>
 	<HomeSection
 		clazz="bg-gradient-to-r from-cyan-500 to-blue-500 text-white"
 		title="About Me"
