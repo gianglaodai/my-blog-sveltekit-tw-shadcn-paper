@@ -1,5 +1,5 @@
 <script>
-	import HeaderItem from './HeaderItem.svelte';
+	import { HeaderItem } from '$lib/components/ui/layout/header';
 </script>
 
 <header>
@@ -14,10 +14,10 @@
 </header>
 
 <style>
-	nav {
-		border-bottom-left-radius: 15px 255px;
-		border-bottom-right-radius: 225px 15px;
-		border-top-left-radius: 255px 15px;
-		border-top-right-radius: 15px 225px;
-	}
+    nav {
+        border-bottom-left-radius: 15px 255px;
+        border-bottom-right-radius: 225px 15px;
+        border-top-left-radius: 255px 15px;
+        border-top-right-radius: 15px 225px;
+    }
 </style>

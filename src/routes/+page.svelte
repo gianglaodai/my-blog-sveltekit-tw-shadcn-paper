@@ -1,6 +1,5 @@
 <script>
-	import HeroSection from '$lib/components/HeroSection.svelte';
-	import HomeSection from '$lib/components/HomeSection.svelte';
+	import { HeroSection, HomeSection } from '$lib/components/ui/layout/sections';
 </script>
 
 <main class="flex flex-col items-center">
@@ -41,5 +40,6 @@
 				you started late like me), I hope you’ll find my posts helpful and maybe even a bit
 				humorous.
 			</p>
-		</div></HomeSection>
+		</div>
+	</HomeSection>
 </main>
