@@ -7,15 +7,15 @@
 
 <section
 	{...$$restProps}
-	class={twMerge('flex flex-col justify-start items-center w-full px-6', clazz)}>
-	<div class="body flex flex-col justify-start px-6 py-12 mb-5 md:max-w-4xl">
+	class={twMerge('flex w-full flex-col items-center justify-start px-6', clazz)}>
+	<div class="body mb-5 flex flex-col justify-start px-6 py-12 md:max-w-4xl">
 		{#if $$slots.title}
 			<slot name="title" />
 		{:else}
-			<h2 class="text-3xl font-bold mt-4 mb-2">{title}</h2>
+			<h2 class="mb-2 mt-4 text-3xl font-bold">{title}</h2>
 		{/if}
 		{#if $$slots.textLead || textLead}
-			<p class="text-xl overflow-clip">
+			<p class="overflow-clip text-xl">
 				{#if $$slots.textLead}
 					<slot name="textLead" />
 				{:else}
@@ -25,12 +25,3 @@
 		{/if}
 	</div>
 </section>
-
-<style>
-	section {
-		/* border-bottom-left-radius: 15px 255px; */
-		/* border-bottom-right-radius: 225px 15px; */
-		/* border-top-left-radius: 255px 15px; */
-		/* border-top-right-radius: 15px 225px; */
-	}
-</style>

@@ -3,3 +3,5 @@ export { Button } from './components/ui/button';
 export { AlertDialog } from './components/ui/alert-dialog';
 
 export { Header, HeaderItem } from './components/ui/layout/header';
+export { Footer } from './components/ui/layout/footer';
+

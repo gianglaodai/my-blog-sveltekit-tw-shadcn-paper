@@ -1,16 +1,22 @@
-<section class="relative py-28 rounded-lg max-w-4xl mx-auto gap-5 px-6">
+<section
+	class="relative mx-auto grid max-w-4xl gap-5 rounded-lg px-6 py-28
+  before:absolute before:-bottom-2 before:-left-2 before:-right-2 before:-top-3 before:-z-10 before:row-start-1 before:row-end-2
+  before:rounded-bl-[0.9375rem_15.9375rem] before:rounded-br-[14.0625rem_0.9375rem] before:rounded-tl-[15.9375rem_0.9375rem]
+  before:rounded-tr-[0.9375rem_14.0625rem] before:bg-gradient-to-r before:from-cyan-500 before:to-blue-500">
 	<picture
-		class="avatar w-full h-full min-h-60 min-w-60 max-h-max overflow-hidden relative border-8 border-white bg-white self-start">
+		class="avatar relative h-full max-h-max min-h-60 w-full min-w-60 self-start overflow-hidden rounded-bl-[0.9375rem_15.9375rem] rounded-br-[14.0625rem_0.9375rem] rounded-tl-[15.9375rem_0.9375rem]
+    rounded-tr-[0.9375rem_14.0625rem] border-8 border-white bg-white">
 		<img
 			src="avatar.jpg"
 			alt="Giang Hoang"
-			class="w-full h-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 object-cover object-center" />
+			class="absolute left-1/2 top-1/2 h-full w-full -translate-x-1/2 -translate-y-1/2 rounded-bl-[0.9375rem_15.9375rem] rounded-br-[14.0625rem_0.9375rem]
+      rounded-tl-[15.9375rem_0.9375rem] rounded-tr-[0.9375rem_14.0625rem] object-cover object-center sm:aspect-square sm:w-full sm:justify-self-center" />
 	</picture>
-	<h1 class="text-3xl sm:text-5xl md:text-4xl font-bold text-white">
+	<h1 class="text-3xl font-bold text-white sm:text-5xl md:text-4xl">
 		Hi, I'm Giang Hoàng, the Lazy Programmer Extraordinaire: automating my way to more nap times
 		with clean code and functional programming.
 	</h1>
-	<div class="text-xl mt-4 text-gray-700">
+	<div class="mt-4 text-xl text-gray-700">
 		<p>
 			Welcome to my blog! Join me as I navigate the wild world of software development, from the zen
 			of clean code to the chaos of functional programming.
@@ -25,31 +31,12 @@
 
 <style>
 	section {
-		display: grid;
 		grid-template-areas:
 			'avatar title'
 			'avatar text';
 	}
-	section::before {
-		@apply absolute -top-2 -left-2 -right-2 -bottom-2 -z-10 row-start-1 row-end-2 bg-gradient-to-r from-cyan-500 to-blue-500;
-		border-bottom-left-radius: 15px 255px;
-		border-bottom-right-radius: 225px 15px;
-		border-top-left-radius: 255px 15px;
-		border-top-right-radius: 15px 225px;
-		content: '';
-	}
 	picture {
 		grid-area: avatar;
-		border-bottom-left-radius: 15px 255px;
-		border-bottom-right-radius: 225px 15px;
-		border-top-left-radius: 255px 15px;
-		border-top-right-radius: 15px 225px;
-	}
-	picture img {
-		border-bottom-left-radius: 15px 255px;
-		border-bottom-right-radius: 225px 15px;
-		border-top-left-radius: 255px 15px;
-		border-top-right-radius: 15px 225px;
 	}
 	h1 {
 		grid-area: title;
@@ -73,11 +60,6 @@
 				'title'
 				'avatar'
 				'text';
-		}
-		picture {
-			justify-self: center;
-			width: 100%;
-			aspect-ratio: 1/1;
 		}
 	}
 </style>

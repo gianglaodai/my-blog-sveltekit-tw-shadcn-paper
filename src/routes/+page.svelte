@@ -1,5 +1,6 @@
 <script>
-	import { HeroSection, HomeSection } from '$lib/components/ui/layout/sections';
+	import { Button } from '$lib';
+	import { HeroSection, HomeSection } from '$lib/components/ui/layout/sections/index.js';
 </script>
 
 <main class="flex flex-col items-center">
@@ -40,6 +41,7 @@
 				you started late like me), I hope you’ll find my posts helpful and maybe even a bit
 				humorous.
 			</p>
+			<Button>Click</Button>
 		</div>
 	</HomeSection>
 </main>
