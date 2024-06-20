@@ -41,7 +41,7 @@
 				you started late like me), I hope you’ll find my posts helpful and maybe even a bit
 				humorous.
 			</p>
-			<Button>Click</Button>
+			<Button variant="default">Click</Button>
 		</div>
 	</HomeSection>
 </main>
