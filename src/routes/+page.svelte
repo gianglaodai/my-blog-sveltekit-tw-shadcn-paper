@@ -41,7 +41,14 @@
 				you started late like me), I hope you’ll find my posts helpful and maybe even a bit
 				humorous.
 			</p>
+      <div class="flex gap-4">
+
 			<Button variant="default">Click</Button>
+			<Button variant="secondary">Click</Button>
+			<Button variant="success">Click</Button>
+			<Button variant="warning">Click</Button>
+			<Button variant="danger">Click</Button>
+        </div>
 		</div>
 	</HomeSection>
 </main>

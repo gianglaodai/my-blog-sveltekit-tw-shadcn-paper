@@ -21,12 +21,40 @@
 		--border: 220 13% 91%;
 		--input: 220 13% 91%;
 
-		--primary: 220.9 39.3% 11%;
-    --primary-light: 30 2% 80%;
-		--primary-foreground: 210 20% 98%;
+    /* #cdcccb */
+		--primary: 30 2% 80%;
+    /* #41403e */
+    --primary-border: 40 2% 25%;
+    /* #272625 */
+		--primary-foreground: 30 3% 15%;
 
-		--secondary: 220 14.3% 95.9%;
-		--secondary-foreground: 220.9 39.3% 11%;
+    /* #d8ebfd */
+		--secondary: 209 90% 92%; 
+    /* #0b74d5 */
+    --secondary-border: 209 90% 44%;
+    /* #085aa5 */
+		--secondary-foreground: 209 91% 34%;
+
+    /* #d5dfc8 */
+    --success: 85 26% 83%; 
+    /* #86a361*/
+    --success-border: 86 26% 51%;
+    /* #4a5a35*/
+    --success-foreground: 86 26% 28%;
+
+    /* #f5f0c6*/
+    --warning: 54 70% 87%;
+    /* #ddcd45*/
+    --warning-border: 54 69% 57%;
+    /* #746a15*/
+    --warning-foreground: 54 69% 27%;
+
+    /* #f0cbc9*/
+    --danger: 3 57% 86%;
+    /* #a7342d*/
+    --danger-border: 3 58% 42%;
+    /* #7f2f22*/
+    --danger-foreground: 3 58% 32%;
 
 		--accent: 220 14.3% 95.9%;
 		--accent-foreground: 220.9 39.3% 11%;
@@ -55,11 +83,42 @@
 		--border: 215 27.9% 16.9%;
 		--input: 215 27.9% 16.9%;
 
-		--primary: 210 20% 98%;
-		--primary-foreground: 220.9 39.3% 11%;
+    /* #ffffff */
+		--primary: 0 0% 100% ;
+    /* #ffffff */
+    --primary-border: 0 0% 100%;
+    /* #41403e */
+		--primary-foreground: 40 2% 25%;
 
-		--secondary: 215 27.9% 16.9%;
-		--secondary-foreground: 210 20% 98%;
+    /* #69a1d4 */
+		--secondary: 209 55% 62%;
+    /* #5595ce */
+    --secondary-border: 208 55% 57%;
+    /* #1f476b */
+		--secondary-foreground: 208 55% 27%;
+
+    /* #82ca84*/
+    --success: 122 40% 65%;
+    /* #70c272*/
+    --success-border: 121 40% 60%;
+    /* #4a5a35*/
+    --success-foreground: 121 40% 25%;
+
+    /* #d9c966*/
+    --warning: 52 60% 63%;
+    /* #d4c252*/
+    --warning-border: 62 60% 58%;
+    /* #746a15*/
+    --warning-foreground: 52 60% 28%;
+
+    /* #e3626b*/
+    --danger: 356 70% 64%;
+    /* #df4c57*/
+    --danger-border: 356 70% 59%;
+    /* #7c161e*/
+    --danger-foreground: 355 70% 29%;
+
+
 
 		--accent: 215 27.9% 16.9%;
 		--accent-foreground: 210 20% 98%;
