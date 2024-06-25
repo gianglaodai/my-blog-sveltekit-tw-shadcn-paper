@@ -43,4 +43,3 @@ export const flyAndScale = (node, params = { y: -8, x: 0, start: 0.95, duration:
 		easing: cubicOut
 	};
 };
-

@@ -10,7 +10,7 @@
 	<a
 		{href}
 		class={twMerge(
-			'rounded-bl-[0.9375rem_0.1875rem] rounded-br-[0.9375rem_0.3125rem] border-b-4 border-solid pb-0.5 text-xl',
+			'rounded-bl-[0.9375rem_0.1875rem] rounded-br-[0.9375rem_0.3125rem] border-b-4 border-solid pb-0.5 text-xl ',
 			`text-${color}`,
 			`border-${color}`,
 			clazz

@@ -4,6 +4,10 @@
 	"trailingComma": "none",
 	"printWidth": 100,
 	"plugins": ["prettier-plugin-svelte", "prettier-plugin-tailwindcss"],
+	"tailwindConfig": "./tailwind.config.js",
+	"tailwindFunctions": ["tv", "twMerge"],
+	"tailwindPreserveDuplicates": true,
+	"tailwindPreserveWhitespace": true,
 	"overrides": [{ "files": "*.svelte", "options": { "parser": "svelte" } }],
 	"bracketSameLine": true
 }

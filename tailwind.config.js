@@ -30,29 +30,29 @@ const config = {
 				foreground: 'hsl(var(--foreground) / <alpha-value>)',
 				primary: {
 					DEFAULT: 'hsl(var(--primary) / <alpha-value>)',
-          border: 'hsl(var(--primary-border) / <alpha-value>)',
+					border: 'hsl(var(--primary-border) / <alpha-value>)',
 					foreground: 'hsl(var(--primary-foreground) / <alpha-value>)'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary) / <alpha-value>)',
-          border: 'hsl(var(--secondary-border) / <alpha-value>)',
+					border: 'hsl(var(--secondary-border) / <alpha-value>)',
 					foreground: 'hsl(var(--secondary-foreground) / <alpha-value>)'
 				},
-        success: {
-          DEFAULT: 'hsl(var(--success) / <alpha-value>)',
-          border: 'hsl(var(--success-border) / <alpha-value>)',
-          foreground: 'hsl(var(--success-foreground) / <alpha-value>)'
-        },
-        warning: {
-          DEFAULT: 'hsl(var(--warning) / <alpha-value>)',
-          border: 'hsl(var(--warning-border) / <alpha-value>)',
-          foreground: 'hsl(var(--warning-foreground) / <alpha-value>)'
-        },
-        danger: {
-          DEFAULT: 'hsl(var(--danger) / <alpha-value>)',
-          border: 'hsl(var(--danger-border) / <alpha-value>)',
-          foreground: 'hsl(var(--danger-foreground) / <alpha-value>)'
-        },
+				success: {
+					DEFAULT: 'hsl(var(--success) / <alpha-value>)',
+					border: 'hsl(var(--success-border) / <alpha-value>)',
+					foreground: 'hsl(var(--success-foreground) / <alpha-value>)'
+				},
+				warning: {
+					DEFAULT: 'hsl(var(--warning) / <alpha-value>)',
+					border: 'hsl(var(--warning-border) / <alpha-value>)',
+					foreground: 'hsl(var(--warning-foreground) / <alpha-value>)'
+				},
+				danger: {
+					DEFAULT: 'hsl(var(--danger) / <alpha-value>)',
+					border: 'hsl(var(--danger-border) / <alpha-value>)',
+					foreground: 'hsl(var(--danger-foreground) / <alpha-value>)'
+				},
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive) / <alpha-value>)',
 					foreground: 'hsl(var(--destructive-foreground) / <alpha-value>)'
