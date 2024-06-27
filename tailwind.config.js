@@ -77,7 +77,13 @@ const config = {
 			borderRadius: {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
-				sm: 'calc(var(--radius) - 4px)'
+				sm: 'calc(var(--radius) - 4px)',
+				paper: '225px 15px 225px 15px / 15px 225px 15px 225px',
+				'paper-2': '125px 10px 20px 185px / 25px 205px 205px 25px',
+				'paper-3': '15px 255px 15px 225px / 225px 15px 255px 15px',
+				'paper-4': '15px 25px 115px 25px / 225px 150px 25px 115px',
+				'paper-5': '250px 25px 15px 20px / 15px 80px 105px 115px',
+				'paper-6': '28px 100px 20px 15px / 125px 30px 205px 225px'
 			},
 			fontFamily: {
 				sans: [...fontFamily.sans],

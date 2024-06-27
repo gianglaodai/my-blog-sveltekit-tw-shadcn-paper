@@ -19,18 +19,18 @@
 				Java. Why Java, you ask? Stick around, and I’ll share my reasons (hint: it’s not just
 				because I enjoy coffee).
 			</p>
-			<div class="flex flex-wrap gap-4">
-				<Button variant="default">Click</Button>
-				<Button variant="secondary">Click</Button>
-				<Button variant="success">Click</Button>
-				<Button variant="warning">Click</Button>
-				<Button variant="danger">Click</Button>
+			<div class="rounded-parent flex flex-wrap gap-4">
+				<Button variant="default" size="lg">Click</Button>
+				<Button variant="secondary" size="lg">Click</Button>
+				<Button variant="success" size="lg">Click</Button>
+				<Button variant="warning" size="lg">Click</Button>
+				<Button variant="danger" size="lg">Click</Button>
 
-				<Button variant="outline-primary">Click</Button>
-				<Button variant="outline-secondary">Click</Button>
-				<Button variant="outline-success">Click</Button>
-				<Button variant="outline-warning">Click</Button>
-				<Button variant="outline-danger">Click</Button>
+				<Button variant="outline-primary" size="lg">Click</Button>
+				<Button variant="outline-secondary" size="lg">Click</Button>
+				<Button variant="outline-success" size="lg">Click</Button>
+				<Button variant="outline-warning" size="lg">Click</Button>
+				<Button variant="outline-danger" size="lg">Click</Button>
 			</div>
 		</div>
 	</HomeSection>

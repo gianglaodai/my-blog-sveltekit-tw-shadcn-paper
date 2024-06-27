@@ -136,3 +136,24 @@
 		@apply bg-background tracking-wider text-foreground;
 	}
 }
+
+@layer components {
+	.rounded-parent > :nth-child(6n + 1) {
+		@apply rounded-paper;
+	}
+	.rounded-parent > :nth-child(6n + 2) {
+		@apply rounded-paper-2;
+	}
+	.rounded-parent > :nth-child(6n + 3) {
+		@apply rounded-paper-3;
+	}
+	.rounded-parent > :nth-child(6n + 4) {
+		@apply rounded-paper-4;
+	}
+	.rounded-parent > :nth-child(6n + 5) {
+		@apply rounded-paper-5;
+	}
+	.rounded-parent > :nth-child(6n + 6) {
+		@apply rounded-paper-6;
+	}
+}
