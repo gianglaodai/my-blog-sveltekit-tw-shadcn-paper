@@ -32,6 +32,24 @@
 				<Button variant="outline-warning" size="lg">Click</Button>
 				<Button variant="outline-danger" size="lg">Click</Button>
 			</div>
+			<ul class="list-inside">
+				<li>
+					root
+					<ul class="list-inside">
+						<li>
+							level 1
+							<ul>
+								<li>
+									level 2
+									<ul>
+										<li>level 3</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>
 		</div>
 	</HomeSection>
 	<HomeSection
